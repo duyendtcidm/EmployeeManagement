@@ -1,0 +1,55 @@
+tbody tr td .d-table--functions-contain {
+    /* display: none; */
+    padding-left: 10px;
+    /* width: 160px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.function-display {
+    display: flex;
+    width: 60px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px 5px 10px
+}
+
+.edit--button {
+    font-family: NotoSans-2;
+    color: #0075c0;
+}
+
+.edit-dropdown {
+    padding-left: 10px;
+    width: 16px;
+    height: 16px;
+    background: url('../../content/icon/Sprites.064341bf.svg') -891px -358px;
+    cursor: pointer;
+}
+
+.edit-dropdown:focus {
+    border: 1px solid #0075c0;
+}
+
+.d-table--functions {
+    top: 0;
+    width: 80px;
+    height: 30px;
+    background-color: #fff;
+    box-sizing: border-box;
+    border: 1px solid #c7c7c7;
+    border-radius: 2px;
+    z-index: 9000;
+    /* display: none; */
+}
+
+.d-table--functions .d-table__function-tiem {
+    /* height: 24px; */
+    padding: 5px 10px;
+}
+
+.d-table--functions .d-table__function-tiem:hover {
+    color: #2ca01c;
+    background-color: #f1f1f1;
+}

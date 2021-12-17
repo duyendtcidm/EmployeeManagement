@@ -1,0 +1,44 @@
+.content-left-n .content--department {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 100%;
+    /* width: 300px; */
+}
+
+.invalid-department {
+    position: absolute;
+    left: 38px;
+    top: 15px;
+    z-index: 999;
+    text-align: center;
+}
+
+.d-combobox-dropdown:hover {
+    background-color: #b8bcc3;
+}
+
+.content--department .department-list {
+    display: none;
+    margin-top: 2px;
+    position: sticky;
+    top: calc(100% + 2px);
+    width: inherit;
+    border: 1px solid #babec5;
+    background-color: #fff;
+    z-index: 999;
+}
+
+.department-list .d-combobox-item {
+    height: 32px;
+    display: flex;
+    padding: 0 16px;
+    align-items: center;
+    background-color: #fff;
+}
+
+.department-list .d-combobox-item:hover,
+.d-combobox-item-focus {
+    color: #2ca01c;
+    background-color: #d8d8d8 !important;
+}

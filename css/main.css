@@ -1,0 +1,55 @@
+@import url('./common/common.css');
+
+/* Components */
+
+@import url('./components/button.css');
+@import url('./components/input.css');
+@import url('./components/combobox.css');
+@import url('./components/table.css');
+@import url('./components/paging-navigation.css');
+@import url('./components/toast-message.css');
+@import url('./components/popup.css');
+@import url('./components/table-function.css');
+@import url('./components/department-list.css');
+
+/* Exercises */
+
+@import url('./layout/navbar.css');
+@import url('./layout/content.css');
+@import url('./layout/header.css');
+@import url('./layout/loader.css');
+@import url('./components/icon.css');
+body {
+    font-family: NotoSans-1;
+    font-size: 13px;
+    font-style: normal;
+    margin: 0;
+    overflow: hidden;
+    display: inline-block;
+    /* /* min-width: 1024px;
+    min-height: 768px; */
+    /* max-width: 1440px;
+    max-height: 900px; */
+    width: 100%;
+    height: 100vh;
+}
+
+@font-face {
+    font-family: NotoSans-1;
+    src: url(../content/fonts/notosans-regular.2cb88a13.woff2);
+}
+
+@font-face {
+    font-family: NotoSans-2;
+    src: url(../content/fonts/notosans-bold.3ede5aff.woff2);
+}
+
+@font-face {
+    font-family: NotoSans-3;
+    src: url(../content/fonts/notosans-italic.1c1aaac9.woff2);
+}
+
+@font-face {
+    font-family: NotoSans-4;
+    src: url(../content/fonts/notosans-semibold.df3e6dc4.woff2);
+}

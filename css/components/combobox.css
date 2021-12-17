@@ -1,0 +1,49 @@
+.d-combobox-contain {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    /* margin: 0 16px; */
+}
+
+.d-combobox-contain .d-combobox-input {
+    height: 32px;
+    border: 1px solid #babec5;
+    border-radius: 2px;
+    min-width: 100px;
+    outline: unset;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 16px;
+    padding-right: 56px;
+}
+
+.d-combobox-contain .d-combobox-input:focus {
+    border-color: #2ca01c;
+}
+
+.d-combobox-contain input:focus~button {
+    border-color: #2ca01c;
+    color: #2ca01c;
+}
+
+.d-combobox-contain .d-combobox-button {
+    position: absolute;
+    right: 1px;
+    width: 31px;
+    height: 30px;
+    top: 1px;
+    border: 0;
+    border-radius: 0 2px 2px 0;
+    box-sizing: border-box;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.d-combobox-dropdown {
+    background: url('../../content/icon/Sprites.064341bf.svg')-552px -351px;
+    width: 30px;
+    height: 29x;
+}

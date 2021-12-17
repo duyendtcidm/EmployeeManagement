@@ -1,0 +1,26 @@
+.d-checkbox-contain {
+    display: flex;
+    align-items: center;
+    width: 20px;
+    height: 30px;
+    background-color: darkcyan;
+}
+
+.d-checkbox-icon {
+    border: 1px solid #bbb;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    /* box-sizing: border-box; */
+    background-color: coral;
+}
+
+.d-checkbox-text {
+    margin-left: 10px;
+}
+
+.d-checked {
+    background: url('../../content/icon/Sprites.064341bf.svg') -895px -313px;
+    cursor: pointer;
+    border: 1 px solid #35BF22;
+}

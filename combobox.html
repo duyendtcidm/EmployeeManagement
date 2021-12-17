@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combobox</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./content/fonts/fontawesome-5.15.1/css/all.css">
+</head>
+
+<body>
+    <div class="d-row" style="width:300px; margin:30px 50%; transform: translate(-50%, 0);">
+        <label class="d-label" for="d-btn">3. Combobox</label>
+        <select class="d-combobox" name="" id="">
+            <option value="">Trạng thái 1</option>
+            <option value="">Trạng thái 2</option>
+            <option value="">Trạng thái 3</option>
+            <option value="">Trạng thái 4</option>
+        </select>
+
+        <br>
+        <br>
+        <br>
+        <div class="d-combobox-contain">
+            <input type="text" class="d-combobox d-combobox-input">
+            <button id="cbbGender1" tabindex="-1" class="d-combobox-button"><i class="fas fa-chevron-down"></i></button>
+            <div class="d-combobox-data">
+                <div class="d-combobox-item" value="1">Nam</div>
+                <div class="d-cnombobox-item" value="0">Nữ</div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="d-combobox-contain">
+            <input type="text" class="d-combobox d-combobox-input">
+            <div tabindex="-1" class="d-combobox-button">
+                <div class="d-combobox-dropdown"></div>
+            </div>
+            <div class="d-combobox-data">
+                <div class="d-combobox-item" value="1">Nam</div>
+                <div class="d-combobox-item" value="0">Nữ</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/jquery-3.6.0.js"></script>
+    <script src="./js/combobox.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+.header {
+    width: calc(100% - 179px);
+    height: 48px;
+    float: left;
+    /* flex: 1; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.header__company {
+    display: flex;
+    align-items: center;
+}
+
+.header__company--detail {
+    display: flex;
+    align-items: center;
+}
+
+.header__company--name {
+    text-transform: uppercase;
+    font-family: NotoSans-2;
+    font-size: 14px;
+}
+
+.header__user {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.header__user--inform {
+    display: flex;
+    align-items: center;
+}
+
+.header__user--avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: url('../../content/icon/Sprites.064341bf.svg') -353px -894px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.header__user--detail {
+    display: flex;
+    align-items: center;
+}

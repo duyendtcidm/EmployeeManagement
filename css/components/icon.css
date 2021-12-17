@@ -1,0 +1,260 @@
+.navbar__menu--item-icon {
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 16px;
+}
+
+.navbar__menu--item-icon-1 {
+    background-image: url('../../content/icon/dashboard.png');
+    filter: brightness(0) invert(1);
+}
+
+.navbar__menu--item-icon-2 {
+    background-image: url('../../content/icon/report.png');
+}
+
+.navbar__menu--item-icon-3 {
+    background-image: url('../../content/icon/dashboard.png');
+}
+
+.navbar__menu--item-icon-4 {
+    background-image: url('../../content/icon/dic-employee.png');
+}
+
+.navbar__menu--item-icon-5 {
+    background-image: url('../../content/icon/setting.png');
+}
+
+.d-toast-msg--icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    background: url('../../content/icon/Sprites.064341bf.svg') -592px -144px;
+    cursor: pointer;
+}
+
+.d-popup--title-help {
+    width: 30px;
+    height: 30px;
+    background: url('../../content/icon/Sprites.064341bf.svg') -85px -141px;
+}
+
+.d-popup--title-close {
+    width: 26px;
+    height: 26px;
+    background: url('../../content/icon/Sprites.064341bf.svg') -143px -143px;
+}
+
+.d--icon {
+    /* background-repeat: no-repeat; */
+    background-color: #E5E5E5;
+    background-size: contain;
+    background-position: center;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    align-content: center;
+    border-radius: 50%;
+    text-decoration: none;
+    line-height: 24px;
+    text-align: center;
+}
+
+.navbar__menu--item-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.navbar__menu--item-icon-1 {
+    background: url('../../content/icon/Sprites.064341bf.svg') -30px -1628px;
+}
+
+.navbar__menu--item-icon-2 {
+    background: url('../../content/icon/Sprites.064341bf.svg') -73px -1628px;
+}
+
+.navbar__menu--item-icon-3 {
+    background: url('../../content/icon/Sprites.064341bf.svg') -117px -1628px;
+}
+
+.navbar__menu--item-icon-4 {
+    background: url('../../content/icon/Sprites.064341bf.svg') -161px -1628px;
+}
+
+.navbar__menu--item-icon-5 {
+    background: url('../../content/icon/Sprites.064341bf.svg') -204px -1628px;
+}
+
+.navbar__menu--item-icon-6 {
+    background: url('../../content/icon/Sprites.064341bf.svg') -248px -1628px;
+}
+
+.navbar__menu--item-icon-7 {
+    background: url('../../content/icon/Sprites.064341bf.svg') -292px -1628px;
+}
+
+.navbar__menu--item-icon-8 {
+    background: url('../../content/icon/Sprites.064341bf.svg') -336px -1628px;
+}
+
+.navbar__menu--item-icon-9 {
+    background: url('../../content/icon/Sprites.064341bf.svg') -380px -1628px;
+}
+
+.navbar__menu--item-icon-10 {
+    background: url('../../content/icon/Sprites.064341bf.svg') -424px -1628px;
+}
+
+.navbar__menu--item-icon-11 {
+    background: url('../../content/icon/Sprites.064341bf.svg') -468px -1628px;
+}
+
+.navbar__menu--item-icon-12 {
+    background: url('../../content/icon/Sprites.064341bf.svg') -512px -1628px;
+}
+
+.navbar__menu--item-icon-13 {
+    background: url('../../content/icon/Sprites.064341bf.svg') -378px -1659px;
+}
+
+.navbar__menu--item-icon-14 {
+    background: url('../../content/icon/Sprites.064341bf.svg') -547px -1628px;
+}
+
+.navbar__menu--item-icon-15 {
+    background: url('../../content/icon/Sprites.064341bf.svg') -204px -1664px;
+}
+
+
+/* hover */
+
+.navbar__menu--item-icon-1:hover {
+    background: url('../../content/icon/Sprites.064341bf.svg') -30px -1585px;
+}
+
+.navbar__menu--item-icon-2:hover {
+    background: url('../../content/icon/Sprites.064341bf.svg') -73px -1585px;
+}
+
+.navbar__menu--item-icon-3:hover {
+    background: url('../../content/icon/Sprites.064341bf.svg') -117px -1585px;
+}
+
+.navbar__menu--item-icon-4:hover {
+    background: url('../../content/icon/Sprites.064341bf.svg') -161px -1585px;
+}
+
+.navbar__menu--item-icon-5:hover {
+    background: url('../../content/icon/Sprites.064341bf.svg') -204px -1585px;
+}
+
+.navbar__menu--item-icon-6:hover {
+    background: url('../../content/icon/Sprites.064341bf.svg') -248px -1585px;
+}
+
+.navbar__menu--item-icon-7:hover {
+    background: url('../../content/icon/Sprites.064341bf.svg') -292px -1585px;
+}
+
+.navbar__menu--item-icon-8:hover {
+    background: url('../../content/icon/Sprites.064341bf.svg') -336px -1585px;
+}
+
+.navbar__menu--item-icon-9:hover {
+    background: url('../../content/icon/Sprites.064341bf.svg') -380px -1585px;
+}
+
+.navbar__menu--item-icon-10:hover {
+    background: url('../../content/icon/Sprites.064341bf.svg') -424px -1585px;
+}
+
+.navbar__menu--item-icon-11:hover {
+    background: url('../../content/icon/Sprites.064341bf.svg') -468px -1585px;
+}
+
+.navbar__menu--item-icon-12:hover {
+    background: url('../../content/icon/Sprites.064341bf.svg') -512px -1585px;
+}
+
+.navbar__menu--item-icon-13:hover {
+    background: url('../../content/icon/Sprites.064341bf.svg') -422px -1659px;
+}
+
+.navbar__menu--item-icon-14:hover {
+    background: url('../../content/icon/Sprites.064341bf.svg') -547px -1585px;
+}
+
+.navbar__menu--item-icon-15:hover {
+    background: url('../../content/icon/Sprites.064341bf.svg')-248px -1664px;
+}
+
+.content__inform--refresh {
+    border: none;
+    width: 24px;
+    height: 24px;
+    background: url('../../content/icon/Sprites.064341bf.svg') -423px -201px;
+    cursor: pointer;
+}
+
+
+/* popup's icons */
+
+.popup__header--help {
+    width: 24px;
+    height: 24px;
+    background: url('../../content/icon/Sprites.064341bf.svg') -89px -144px;
+    padding-right: 6px;
+    cursor: pointer;
+}
+
+.popup__header--close {
+    width: 24px;
+    height: 24px;
+    background: url('../../content/icon/Sprites.064341bf.svg') -144px -144px;
+    cursor: pointer;
+}
+
+
+/* header's icons */
+
+.header__company--icon {
+    width: 24px;
+    height: 24px;
+    background: url('../../content/icon/Sprites.064341bf.svg') -843px -30px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.header__company--detail-icon {
+    width: 14px;
+    height: 14px;
+    background: url('../../content/icon/Sprites.064341bf.svg') -80px -360px;
+    margin: 0 10px;
+    transform: rotate( 90deg);
+    cursor: pointer;
+}
+
+
+/* .header__user--notice-contain {
+    width: 44px;
+    height: 48px;
+} */
+
+.header__user--notice {
+    width: 24px;
+    height: 24px;
+    background: url('../../content/icon/Sprites.064341bf.svg') -788px -30px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.header__user--detail-icon {
+    width: 14px;
+    height: 14px;
+    background: url('../../content/icon/Sprites.064341bf.svg') -1076px -32px;
+    margin: 0 10px;
+    cursor: pointer;
+}

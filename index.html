@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./content/fonts/fontawesome-5.15.1/css/all.css">
+</head>
+
+<body style="min-height: 1000px;">
+    <div class="d-row">
+        <label class="d-label" for="d-btn">1. Button</label>
+        <button class="d-btn">Nộp hồ sơ</button>
+    </div>
+    <!-- 
+    <div class="d-row">
+        <label class="d-label" for="d-btn">2. Input</label>
+        <input type="text" class="d__input--label" placeholder="Tìm kiếm theo tên, số hồ sơ">
+    </div>
+
+    <div class="d-row">
+        <label class="d-label" for="d-btn">2.1 Invalid input</label>
+        <input type="text" class="d__input--label d__input--invalid" placeholder="Tìm kiếm theo tên, số hồ sơ">
+    </div>
+
+    <div class="d-row">
+        <label class="d-label" for="d-btn">2.3 Input-icon</label>
+        <input type="text" class="d__input--label d-input--icon d-input--icon--search" placeholder="Tìm kiếm theo tên, số hồ sơ">
+    </div>
+
+    <div class="d-row">
+        <label class="d-label" for="d-btn">2.3 Invalid input-icon</label>
+        <div class="d-input--icon">
+            <input type="text" class="d__input--label d-input--icon d-input--icon--search d__input--invalid" placeholder="Tìm kiếm theo tên, số hồ sơ">
+        </div>
+    </div> -->
+
+    <div class="d-row">
+        <label class="d-label" for="d-btn">4. Table</label>
+        <!-- <table class="d-table">
+            <thead>
+                <tr>
+                    <th class="d-table--checkbox">
+                        <input type="checkbox">
+                    </th>
+                    <div class="d-table--column">
+                        <th class="text-align-left" style="width: 80px; ">Mã nhân viên</th>
+                        <th class="text-align-left">Tên nhân viên</th>
+                        <th class="text-align-left" style="width: 80px;">Giới tính</th>
+                        <th class="text-align-center" style="width: 80px;">Ngày sinh</th>
+                        <th class="text-align-left" style="width: 90px;">Số CMTND</th>
+                        <th class="text-align-left" style="width: 90px;">Chức danh</th>
+                        <th class="text-align-left" style="width: 90px;">Tên đơn vị</th>
+                        <th class="text-align-left" style="width: 100px;">Số tài khoản</th>
+                        <th class="text-align-left" style="width: 120px;">Tên ngân hàng</th>
+                        <th class="text-align-left" style="width: 200px;">Chi nhánh tk ngân hàng</th>
+                        <th class="text-align-center" style="width: 80px;">Chức năng</th>
+                    </div>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="d-table--checkbox">
+                        <input type="checkbox">
+                    </td>
+                    <td class="text-align-left">00122</td>
+                    <td class="text-align-left">Đinh Thị Duyên</td>
+                    <td class="text-align-left">Nữ</td>
+                    <td class="text-align-center">23/02/2000</td>
+                    <td class="text-align-left">125853694</td>
+                    <td class="text-align-left">Leader</td>
+                    <td class="text-align-left">HUST</td>
+                    <td class="text-align-left">092357328478239888</td>
+                    <td class="text-align-left">Viettin bank</td>
+                    <td class="text-align-left">Hai Bà Trưng</td>
+                    <td class="text-align-center">Developer</td>
+                </tr>
+                <tr>
+                    <td class="d-table--checkbox">
+                        <input type="checkbox">
+                    </td>
+                    <td class="text-align-left">00122</td>
+                    <td class="text-align-left">Đinh Thị Duyên</td>
+                    <td class="text-align-left">Nữ</td>
+                    <td class="text-align-center">23/02/2000</td>
+                    <td class="text-align-left">125853694</td>
+                    <td class="text-align-left">Leader</td>
+                    <td class="text-align-left">HUST</td>
+                    <td class="text-align-left">092357328478239888</td>
+                    <td class="text-align-left">Viettin bank</td>
+                    <td class="text-align-left">Hai Bà Trưng</td>
+                    <td class="text-align-center">Developer</td>
+                </tr>
+                <tr>
+                    <td class="d-table--checkbox">
+                        <input type="checkbox">
+                    </td>
+                    <td class="text-align-left">00122</td>
+                    <td class="text-align-left">Đinh Thị Duyên</td>
+                    <td class="text-align-left">Nữ</td>
+                    <td class="text-align-center">23/02/2000</td>
+                    <td class="text-align-left">125853694</td>
+                    <td class="text-align-left">Leader</td>
+                    <td class="text-align-left">HUST</td>
+                    <td class="text-align-left">092357328478239888</td>
+                    <td class="text-align-left">Viettin bank</td>
+                    <td class="text-align-left">Hai Bà Trưng</td>
+                    <td class="text-align-center">Developer</td>
+                </tr>
+                <tr>
+                    <td class="d-table--checkbox">
+                        <input type="checkbox">
+                    </td>
+                    <td class="text-align-left">00122</td>
+                    <td class="text-align-left">Đinh Thị Duyên</td>
+                    <td class="text-align-left">Nữ</td>
+                    <td class="text-align-center">23/02/2000</td>
+                    <td class="text-align-left">125853694</td>
+                    <td class="text-align-left">Leader</td>
+                    <td class="text-align-left">HUST</td>
+                    <td class="text-align-left">092357328478239888</td>
+                    <td class="text-align-left">Viettin bank</td>
+                    <td class="text-align-left">Hai Bà Trưng</td>
+                    <td class="text-align-center">Developer</td>
+                </tr>
+
+
+            </tbody>
+        </table> -->
+        <div class="d-paging">
+            <div class="d-paging--left">Tổng số: <b>10 </b> bản ghi</div>
+            <div class="d-paging--center">
+                <div class="d-paging--center--first">
+                </div>
+                <div class="d-paging--center--prev">
+                </div>
+                <div class="d-paging--center--number">
+                    <a href="#">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                </div>
+                <div class="d-paging--center--next">
+                </div>
+                <div class="d-paging--center--last">
+                </div>
+            </div>
+            <div class="d-paging--right">
+                <select class="d-combobox d-combobox--paging">
+                    <option value="10">10 nhân viên/trang</option>
+                    <option value="15">15 nhân viên/trang</option>
+                    <option value="20">20 nhân viên/trang</option>
+                </select>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- <div class="d-row">
+        <label class="d-label" for="d-btn">4. Toast message</label>
+        <div class="d-toast-box" style="background-color: aqua;">
+            <div class="d-toast-msg">
+                <div class="d-toast-msg--content">
+                    <div class="d-toast-msg--icon"></div>
+                    <div class="d-toast-msg--text">Mã nhân viên
+                        <> đã tồn tại trong hệ thống vui lòng kiểm tra lại</div>
+                </div>
+                <div class="d-toast-msg--btn">
+                    <button class="d-btn">Đồng ý</button>
+                </div>
+            </div>
+            <div class="d-toast-msg">
+                <div class="d-toast-msg--content">
+                    <div class="d-toast-msg--icon"></div>
+                    <div class="d-toast-msg--text">Xóa thành công!</div>
+                </div>
+                <div class="d-toast-msg--btn">
+                    <button class="d-btn">Đồng ý</button>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <div class="delete-toast-msg">
+        <div class="d-toast-msg">
+            <div class="d-toast-msg--content">
+                <div class="d-toast-msg--icon"></div>
+                <div class="d-toast-msg--text">Bạn có thực sự muốn xóa Nhân viên &lt; <span class="delete-emp-code"></span> &gt; không?</div>
+            </div>
+            <div class="d-toast-msg--btn delete-button">
+                <button class="btn--no-background">Không</button>
+                <button class="d-btn">Đồng ý</button>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <!-- <div class="d--popup-modal">
+        <div class="d-row">
+            <label class="d-label" for="d-btn">5. Pop up</label>
+            <div class="d-popup" id="dlgPopup">
+                <div class="d-popup--title">
+                    <div class="d-popup--title-content">
+                        <div class="d-popup--title-1">Thông tin nhân viên</div>
+                        <div class="d-table--checkbox"><input type="checkbox">Là khách hàng</div>
+                        <div class="d-table--checkbox"><input type="checkbox">Là nhà cung cấp</div>
+                    </div>
+                    <div class="d-popup--title-icon">
+                        <div class="d-popup--title-help"></div>
+                        <div class="d-popup--title-close"></div>
+                    </div>
+                </div>
+                <!-- <div class="d-popup--content">
+                    <div class="d-popup--content-icon d--icon d--icon-warning"><i
+                            class="fas fa-exclamation-triangle"></i></div>
+                    <div class="d-popup--content-text"> Some thing neu here <b>Thong tin chung cua</b> xem ben duoi day
+                    </div>
+                </div>
+                <div class="d-popup--button">
+                    <button class="d-btn d-btn-default">Hủy</button>
+                    <button class="d-btn">Đóng</button>
+                </div> -->
+    </div>
+
+    </div>
+
+    </div> -->
+    <br>
+    <br>
+    <br>
+    <!-- <div class="d-row">
+        <label class="d-label" for="d-btn">2.3 Invalid input-icon</label>
+
+        <div class="d-table--functions-contain">
+            <div class="function-display">
+                <div class="edit--button">Sửa</div>
+                <div tabindex="-1" class="edit-dropdown"></div>
+            </div>
+            <div class="d-table--functions">
+                <div id="function-delete" class="d-table__function-tiem d-table__function--delete">Xóa</div>
+            </div>
+        </div>
+    </div> -->
+
+    <br>
+    <br>
+    <br>
+
+    <div class="d-checkbox-contain">
+        <div class="d-checkbox-icon"></div>
+        <div class="d-checkbox-text">hello</div>
+    </div>
+
+    <div class="d-checkbox-contain">
+        <div class="d-checked"><i>*</i></div>
+        <div class="d-checkbox-text">hi</div>
+    </div>
+
+    <div class="content--department">
+        <div class="d-label">Đơn vị
+            <font style="color: red;">*</font> <br>
+        </div>
+        <div class="department--contain">
+            <div class="d-combobox-contain">
+                <input type="text" class="d__input--label d-combobox-input" id="txtDepartment" fieldName="DepartmentName">
+                <div tabindex="-1" class="d-combobox-dropdown d-combobox-button" id="deparment-dropdown">
+                </div>
+                <div class="d__input--invalid-msg">Đơn vị không được để trống</div>
+            </div>
+            <div class="department-list d-combobox-data">
+                <div class="d-combobox-item" value="10">Nam</div>
+                <div class="d-combobox-item" value="00">Nữ</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="paging-combobox">
+        <div class="d-combobox-contain">
+            <input type="text" class="d-combobox d-combobox-input">
+            <div tabindex="-1" class="d-combobox-button" id="paging-dropdown">
+            </div>
+        </div>
+        <div class="paging-list d-combobox-data">
+            <div class="d-combobox-item" value="10">10 bản ghi trên trang</div>
+            <div class="d-combobox-item" value="20">20 bản ghi trên trang</div>
+            <div class="d-combobox-item" value="50">50 bản ghi trên trang</div>
+            <div class="d-combobox-item" value="100">100 bản ghi trên trang</div>
+        </div>
+    </div>
+    <script src="./js/jquery-3.6.0.js"></script>
+    <!-- <script src="./js/combobox.js"></script> -->
+    <!-- <script src="./js/page/employee.js"></script> -->
+    <script src="./js/base/Common.js"></script>
+    <script src="./js/base/Enum.js"></script>
+    <script src="./js/page/index.js"></script>
+    <!-- <script src="./js/page/"></script> -->
+</body>
+
+</html>

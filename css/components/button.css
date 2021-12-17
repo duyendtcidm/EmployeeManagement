@@ -1,0 +1,80 @@
+.d-btn {
+    background-color: #35bf22;
+    border-radius: 4px;
+    height: 34px;
+    padding: 6px 16px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: normal;
+    outline: unset;
+    border: none;
+    cursor: pointer;
+    /* min-width: 100px; */
+}
+
+.d-btn:hover,
+.d-btn--icon:hover {
+    background-color: #00D317;
+}
+
+.d-btn--icon {
+    background-color: #35bf22;
+    border-radius: 3px;
+    height: 34px;
+    padding: 6px 16px;
+    text-align: left;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: normal;
+    outline: unset;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.d-btn--icon-i {
+    width: 13px;
+    height: 13px;
+    background-repeat: no-repeat;
+    filter: brightness(0) invert(1);
+    background-size: cover;
+    background-position: center;
+    margin-right: 8px;
+}
+
+.d-btn--icon-save {
+    background-image: url('../../content/icon/1-floppy-o.svg');
+}
+
+.popup__button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: auto;
+    overflow-y: visible;
+    padding-top: 10px;
+    margin: 0 32px 20px;
+}
+
+.popup__button--right {
+    display: flex;
+}
+
+.popup--save {
+    padding-left: 0.75rem!important;
+    padding-right: 0.75rem!important;
+}
+
+.btn--no-background {
+    background-color: transparent;
+    border: 1px solid #8d9096;
+    border-radius: 3px;
+    color: #111;
+    padding: 6px 16px;
+}
+
+.btn--no-background:hover {
+    background-color: #bbbcbc;
+    ;
+}

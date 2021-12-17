@@ -1,0 +1,67 @@
+.d-paging {
+    /* width: calc(100% - 251px); */
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.d-paging--left {
+    left: 20px;
+    padding-left: 12px;
+    white-space: nowrap;
+    min-width: 10px;
+    display: flex;
+    position: sticky;
+    bottom: 0;
+}
+
+.d-paging-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    /* right: 20px; */
+}
+
+.paging-choice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paging-previous {
+    margin: 1rem!important;
+    cursor: pointer;
+}
+
+.paging-following {
+    margin: 1rem!important;
+    cursor: pointer;
+}
+
+.paging-number {
+    display: flex;
+}
+
+.paging-number a {
+    padding: 0.2rem 0.5rem;
+    text-decoration: none;
+    color: #111;
+}
+
+.paging-number a:focus {
+    font-family: NotoSans2;
+    border: 1px solid #bbbbbb;
+    font-weight: 700;
+}
+
+.paging-list {
+    display: none;
+}

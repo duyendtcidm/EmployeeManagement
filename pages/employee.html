@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employees</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../content/fonts/fontawesome-5.15.1/css/all.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navbar__logo">
+            <div class="navbar__logo--option"></div>
+            <div class="navbar__logo--image"></div>
+        </div>
+        <div class="navbar__menu scroller" id="nav__menu">
+            <div class="navbar__menu--container-item">
+                <div class="navbar__menu--item">
+                    <div class="navbar__menu--item-icon navbar__menu--item-icon-1"></div>
+                    <div class="navbar__menu--item-text">Tổng quan</div>
+                </div>
+            </div>
+            <div class="navbar__menu--container-item">
+                <div class="navbar__menu--item">
+                    <div class="navbar__menu--item-icon navbar__menu--item-icon-2"></div>
+                    <div class="navbar__menu--item-text">Tiền mặt</div>
+                </div>
+            </div>
+            <div class="navbar__menu--container-item">
+                <div class="navbar__menu--item">
+                    <div class="navbar__menu--item-icon navbar__menu--item-icon-3"></div>
+                    <div class="navbar__menu--item-text">Tiền gửi</div>
+                </div>
+            </div>
+            <div class="navbar__menu--container-item">
+                <div class="navbar__menu--item">
+                    <div class="navbar__menu--item-icon navbar__menu--item-icon-4"></div>
+                    <div class="navbar__menu--item-text">Mua hàng</div>
+                </div>
+            </div>
+            <div class="navbar__menu--container-item">
+                <div class="navbar__menu--item">
+                    <div class="navbar__menu--item-icon navbar__menu--item-icon-5"></div>
+                    <div class="navbar__menu--item-text">Bán hàng</div>
+                </div>
+            </div>
+            <div class="navbar__menu--container-item">
+                <div class="navbar__menu--item">
+                    <div class="navbar__menu--item-icon navbar__menu--item-icon-6"></div>
+                    <div class="navbar__menu--item-text">Quản lý hóa đơn</div>
+                </div>
+            </div>
+            <div class="navbar__menu--container-item">
+                <div class="navbar__menu--item">
+                    <div class="navbar__menu--item-icon navbar__menu--item-icon-7"></div>
+                    <div class="navbar__menu--item-text">Kho</div>
+                </div>
+            </div>
+            <div class="navbar__menu--container-item">
+                <div class="navbar__menu--item">
+                    <div class="navbar__menu--item-icon navbar__menu--item-icon-8"></div>
+                    <div class="navbar__menu--item-text">Công cụ dụng cụ</div>
+                </div>
+            </div>
+            <div class="navbar__menu--container-item">
+                <div class="navbar__menu--item">
+                    <div class="navbar__menu--item-icon navbar__menu--item-icon-9"></div>
+                    <div class="navbar__menu--item-text">Tài sản cố định</div>
+                </div>
+            </div>
+            <div class="navbar__menu--container-item">
+                <div class="navbar__menu--item">
+                    <div class="navbar__menu--item-icon navbar__menu--item-icon-10"></div>
+                    <div class="navbar__menu--item-text">Thuế</div>
+                </div>
+            </div>
+            <div class="navbar__menu--container-item">
+                <div class="navbar__menu--item">
+                    <div class="navbar__menu--item-icon navbar__menu--item-icon-11"></div>
+                    <div class="navbar__menu--item-text">Giá thành</div>
+                </div>
+            </div>
+            <div class="navbar__menu--container-item">
+                <div class="navbar__menu--item">
+                    <div class="navbar__menu--item-icon navbar__menu--item-icon-12"></div>
+                    <div class="navbar__menu--item-text">Tổng hợp</div>
+                </div>
+            </div>
+            <div class="navbar__menu--container-item">
+                <div class="navbar__menu--item">
+                    <div class="navbar__menu--item-icon navbar__menu--item-icon-13"></div>
+                    <div class="navbar__menu--item-text">Ngân sách</div>
+                </div>
+            </div>
+            <div class="navbar__menu--container-item">
+                <div class="navbar__menu--item">
+                    <div class="navbar__menu--item-icon navbar__menu--item-icon-14"></div>
+                    <div class="navbar__menu--item-text">Báo cáo</div>
+                </div>
+            </div>
+            <div class="navbar__menu--container-item">
+                <div class="navbar__menu--item">
+                    <div class="navbar__menu--item-icon navbar__menu--item-icon-15"></div>
+                    <div class="navbar__menu--item-text">Phân tích tài chính</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header">
+        <div class="header__company">
+            <div class="header__company--icon">
+            </div>
+            <div class="header__company--detail">
+                <div class="header__company--name">Công ty TNHH dịch vụ Sao Vàng</div>
+                <div class="header__company--detail-icon">
+                </div>
+            </div>
+        </div>
+        <div class="header__user">
+            <div class="header__user--notice-contain">
+                <div class="header__user--notice"></div>
+            </div>
+            <div class="header__user--inform">
+                <div class="header__user--avatar"></div>
+                <div class="header__user--detail">
+                    <div class="header__user--detail-name">Đinh Thị Duyên</div>
+                    <div class="header__user--detail-icon"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content--contain">
+        <div class="content content-scroller" id="content--scroller">
+            <div class="content__title">
+                <div class="content__title--text">Nhân viên</div>
+                <div class="content__title--btn">
+                    <button id="addEmployee" class="d-btn">Thêm mới nhân viên</button>
+                </div>
+            </div>
+            <div class="content__container">
+                <div class="content__inform">
+                    <div class="content__inform--choice">
+                        <input type="text" class="d__input--label d-input--icon d-input--icon--search content__input-choice" placeholder="Tìm theo mã, tên nhân viên">
+                        <button id="refreshPage" class="content__inform--refresh"></button>
+                    </div>
+                    <div class="content__inform--table">
+                        <table class="d-table" id="employeesTable">
+                            <thead>
+                                <tr>
+                                    <th class="d-checkbox-contain">
+                                        <input class="d-checkbox-icon" type="checkbox">
+                                    </th>
+                                    <div class="d-table--column">
+                                        <th class="text-align-left" style="width: 80px; " fieldName="EmployeeCode">Mã nhân viên</th>
+                                        <th class="text-align-left" fieldName="EmployeeName">Tên nhân viên</th>
+                                        <th class="text-align-left" style="width: 80px;" fieldName="GenderName">Giới tính</th>
+                                        <th class="text-align-center" style="width: 80px;" fieldName="DateOfBirth">Ngày sinh</th>
+                                        <th class="text-align-left" style="width: 90px;" fieldName="IdentityNumber">Số CMTND</th>
+                                        <th class="text-align-left" style="width: 90px;" fieldName="EmployeePosition">Chức danh</th>
+                                        <th class="text-align-left" style="width: 90px;" fieldName="DepartmentName">Tên đơn vị</th>
+                                        <th class="text-align-left" style="width: 100px;" fieldName="BankAccountNumber">Số tài khoản</th>
+                                        <th class="text-align-left" style="width: 120px;" fieldName="BankName">Tên ngân hàng</th>
+                                        <th class="text-align-left" style="width: 200px;" fieldName="BankBranchName">Chi nhánh tk ngân hàng</th>
+                                        <th class="text-align-center" style="width: 80px;">Chức năng</th>
+                                    </div>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            </tbody>
+                        </table>
+                        <div class="d-paging">
+                            <div class="d-paging-left">Tổng số: <b>45</b> bản ghi</div>
+                            <div class="d-paging-right">
+                                <div class="paging-combobox">
+                                    <div class="d-combobox-contain">
+                                        <input type="text" class="d-combobox d-combobox-input">
+                                        <div tabindex="-1" class="d-combobox-button">
+                                            <div class="d-combobox-dropdown"></div>
+                                        </div>
+                                    </div>
+                                    <div class="paging-list d-combobox-data">
+                                        <div class="d-combobox-item" value="10">10 bản ghi trên trang</div>
+                                        <div class="d-combobox-item" value="20">20 bản ghi trên trang</div>
+                                        <div class="d-combobox-item" value="50">50 bản ghi trên trang</div>
+                                        <div class="d-combobox-item" value="100">100 bản ghi trên trang</div>
+                                    </div>
+                                </div>
+                                <div class="paging-choice">
+                                    <div class="paging-previous">Trước</div>
+                                    <div class="paging-number">
+                                        <a href="#">1</a>
+                                        <a href="#">2</a>
+                                        <a href="#">3</a>
+                                        <a href="#">4</a>
+                                    </div>
+                                    <div class="paging-following">Sau</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="popup" id="popup-dlg">
+        <div class="popupp__box">
+            <div class="popup__header">
+                <div class="popup__header--title-contain">
+                    <div class="popup__header--title">
+                        <div class="popup__header--text">Thông tin nhân viên</div>
+                        <div class="d-table--checkbox"><input type="checkbox">Là khách hàng</div>
+                        <div class="d-table--checkbox"><input type="checkbox">Là nhà cung cấp</div>
+                    </div>
+                </div>
+                <div class="popup__header--icon">
+                    <div id="popup-help" class="popup__header--help"></div>
+                    <div id="popup--close-id" class="popup--close popup__header--close"></div>
+                </div>
+            </div>
+            <div class="popup__content">
+                <div class="popup__content-up">
+                    <div class="popup__content-left">
+                        <div class="content-left-1">
+                            <div class="content--code">
+                                <div class="d-label">Mã
+                                    <font style="color: red;">*</font> <br>
+                                </div>
+                                <input type="text" class="d__input--label" id="txtEmployeeCode" fieldName="EmployeeCode">
+                                <div class="d__input--invalid-msg">Mã không được để trống</div>
+                            </div>
+                            <div class="content--name">
+                                <div class="d-label">Tên nhân viên
+                                    <font style="color: red;">*</font> <br>
+                                </div>
+                                <input type="text" class="d__input--label" id="txtFullName" fieldName="EmployeeName">
+                                <div class="d__input--invalid-msg">Tên không được để trống</div>
+                            </div>
+                        </div>
+                        <div class="content-left-n">
+                            <div class="content--department">
+                                <div class="d-label">Đơn vị
+                                    <font style="color: red;">*</font> <br>
+                                </div>
+                                <div class="department--contain">
+                                    <div class="d-combobox-contain">
+                                        <input type="text" class="d__input--label d-combobox-input" id="cbxDepartment" fieldName="DepartmentName">
+                                        <div tabindex="-1" class="d-combobox-dropdown d-combobox-button" id="deparment-dropdown">
+                                        </div>
+                                        <div class="d__input--invalid-msg">Đơn vị không được để trống</div>
+                                    </div>
+                                    <div class="department-list d-combobox-data">
+                                        <!-- <div class="d-combobox-item" value="10">Nam</div>
+                                        <div class="d-combobox-item" value="00">Nữ</div> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-left-n">
+                            <div class="content--posidion">
+                                <div class="d-label">Chức danh<br>
+                                </div>
+                                <input type="text" class="d__input--label" id="txtPosition" fieldName="PositionName">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="popup__content-right">
+                        <div class="content-right-1">
+                            <div class="content--dob">
+                                <div class="d-label">Ngày sinh<br>
+                                </div>
+                                <input type="date" class="d__input--label" id="dtDob" fieldName="DateOfBirth">
+                            </div>
+                            <div class="content--gender">
+                                <div class="d-label">Giới tính<br>
+                                </div>
+                                <div class="content--gender-choice">
+                                    <div class="radio">
+                                        <input id="radio-1" name="Gender" type="radio" checked>
+                                        <label for="radio-1" class="radio-label" value="1">Nam</label>
+                                    </div>
+
+                                    <div class="radio">
+                                        <input id="radio-2" name="Gender" type="radio">
+                                        <label for="radio-2" class="radio-label" value="0">Nữ</label>
+                                    </div>
+                                    <div class="radio">
+                                        <input id="radio-3" name="Gender" type="radio">
+                                        <label for="radio-3" class="radio-label" value="-1">Khác</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-right-2">
+                            <div class="content--indentify">
+                                <div class="d-label">Số CMND<br>
+                                </div>
+                                <input type="number" class="d__input--label" id="txtIdentify" fieldName="IdentityNumber">
+                            </div>
+                            <div class="content--date-identify">
+                                <div class="d-label">Ngày cấp<br>
+                                </div>
+                                <input type="date" class="d__input--label" id="txtIdentityDate" fieldName="IdentityDate">
+                            </div>
+                        </div>
+                        <div class="content-right-n">
+                            <div class="content--identify-place">
+                                <div class="d-label">Nơi cấp<br>
+                                </div>
+                                <input type="text" class="d__input--label" id="txtIdentityPlace" fieldName="IdentityPlace">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="popup__content-down">
+                    <div class="content-row-1">
+                        <div class="content--address">
+                            <div class="d-label">Địa chỉ<br>
+                            </div>
+                            <input type="text" class="d__input--label" id="txtAddress" fieldName="Address">
+                        </div>
+                    </div>
+                    <div class="content-row-2">
+                        <div class="content--phone content-1-4">
+                            <div class="d-label">ĐT di động<br>
+                            </div>
+                            <input type="number" class="d__input--label" id="txtPhoneNumber" fieldName="PhoneNumber">
+                        </div>
+                        <div class="content--telephone content-1-4">
+                            <div class="d-label">ĐT cố định<br>
+                            </div>
+                            <input type="number" class="d__input--label" id="txtTelePhoneNumber" fieldName="TelephoneNumber">
+                        </div>
+                        <div class="content--email content-1-4">
+                            <div class="d-label">Email<br>
+                            </div>
+                            <input type="text" class="d__input--label" id="txtEmail" fieldName="Email">
+                        </div>
+                    </div>
+                    <div class="content-row-3">
+                        <div class="content--bank-account content-1-4">
+                            <div class="d-label">Tài khoản ngân hàng<br>
+                            </div>
+                            <input type="number" class="d__input--label" id="txtBankAccountNumber" fieldName="BankAccountNumber">
+                        </div>
+                        <div class="content--bank-name content-1-4">
+                            <div class="d-label">Tên ngân hàng<br>
+                            </div>
+                            <input type="text" class="d__input--label" id="txtBankName" fieldName="BankName">
+                        </div>
+                        <div class="content--bank-branch content-1-4">
+                            <div class="d-label">Chi nhánh<br>
+                            </div>
+                            <input type="text" class="d__input--label" id="txtBankBranchName" fieldName="BankBranchName">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="popup__button">
+                <div class="popup__button--left">
+                    <div class="popup--cancel">
+                        <button class="d-btn popup--close btn--no-background">Hủy</button>
+                    </div>
+                </div>
+                <div class="popup__button--right">
+                    <div class="popup--save">
+                        <button id="update" class="d-btn popup--close btn--no-background">Cất</button>
+                    </div>
+                    <div class="popup--save-add">
+                        <button id="saveAdd" class="d-btn">Cất và thêm</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="delete-toast-msg">
+        <div class="d-toast-msg">
+            <div class="d-toast-msg--content">
+                <div class="d-toast-msg--icon"></div>
+                <div class="d-toast-msg--text">Bạn có thực sự muốn xóa Nhân viên &lt; <span class="delete-emp-code"></span> &gt; không?</div>
+            </div>
+            <div class="d-toast-msg--btn delete-button">
+                <button id="delete-cancel" class="btn--no-background">Không</button>
+                <button id="delete-btn" class="d-btn">Có</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="loader" class="loader-contain">
+        <div class="loader">
+        </div>
+    </div>
+
+
+    <script src="../js/jquery-3.6.0.js"></script>
+    <!-- <script src="../js/combobox.js"></script> -->
+    <script src="../js/page/employee.js"></script>
+    <script src="../js/base/Common.js"></script>
+    <script src="../js/components/department.js"></script>
+    <script src="../js/components/paging.js"></script>
+    <script src="../js/components/table-function.js"></script>
+</body>
+
+</html>

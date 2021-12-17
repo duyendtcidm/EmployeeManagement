@@ -1,0 +1,64 @@
+.d-toast-box--contain {
+    /* position: fixed; */
+    bottom: 24px;
+    right: 24px;
+    background-color: aqua;
+}
+
+.d-toast-box {
+    padding: 24px 24px;
+}
+
+.d-toast-item {
+    display: none;
+}
+
+.d-toast-msg {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 24px 24px 24px 24px;
+    border-radius: 4px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 300px;
+    background-color: #fff;
+    margin-bottom: 16px;
+}
+
+.d-toast-msg--content {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #c7c7c7;
+    padding-bottom: 29px;
+}
+
+.d-toast-msg--text {
+    color: #111;
+    font-weight: 400;
+    flex: 1;
+}
+
+.d-toast-msg--btn {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 16px;
+}
+
+.delete-toast-msg {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.671);
+}
+
+.delete-button {
+    display: flex;
+    justify-content: space-between;
+}
